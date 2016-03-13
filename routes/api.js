@@ -23,8 +23,8 @@ router.get('/add', function (req, res) {
 
 	// Set our collection
 	var collection = db.get('keyvaluecollection');
-    res.send("ok");
-    return;
+    // res.send("ok");
+    // return;
 
 	// Submit to the DB
 	collection.insert({
