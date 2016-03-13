@@ -11,7 +11,7 @@ var api = require('./routes/api');
 // New Code
 var mongo = require('mongodb');
 var monk = require('monk');
-var db = monk('localhost:27017/jsonapisolution');
+var db = monk('localhost:27017/jsonapi');
 
 var app = express();
 

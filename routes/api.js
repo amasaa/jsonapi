@@ -6,7 +6,7 @@ router.get('/', function (req, res) {
     res.send('API! respond with a resource');
 });
 
-/* GET to Add User Service */
+/* GET to Add API Service */
 router.get('/add', function (req, res) {
 	
 	// Set our internal DB variable
