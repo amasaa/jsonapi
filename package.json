@@ -1,11 +1,11 @@
 {
-  "name": "jsonapisolution",
+  "name": "jsonapi",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
-  "description": "jsonapisolution",
+  "description": "jsonapi",
   "author": {
     "name": "mla",
     "email": "marvinit@hotmail.com"
