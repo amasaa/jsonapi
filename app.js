@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
-var users = require('./routes/api');
+var api = require('./routes/api');
 // New Code
 var mongo = require('mongodb');
 var monk = require('monk');
