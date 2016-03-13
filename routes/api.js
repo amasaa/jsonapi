@@ -6,6 +6,11 @@ router.get('/', function (req, res) {
     res.send('API! respond with a resource');
 });
 
+// Test
+router.get('/test', function (req, res) {
+    res.send('API! respond with a resource');
+});
+
 /* GET to Add API Service */
 router.get('/add', function (req, res) {
 	
