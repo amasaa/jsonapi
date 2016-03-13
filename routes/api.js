@@ -20,11 +20,12 @@ router.get('/add', function (req, res) {
 	// Get our form values. These rely on the "name" attributes
 	var key = req.query.key;
 	var value = req.query.value;
-    res.send("ok");
-    return;
+
 	// Set our collection
 	var collection = db.get('keyvaluecollection');
-	
+    res.send("ok");
+    return;
+
 	// Submit to the DB
 	collection.insert({
 		"key" : key,
