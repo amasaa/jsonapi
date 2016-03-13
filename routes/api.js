@@ -16,7 +16,8 @@ router.get('/add', function (req, res) {
 	
 	// Set our internal DB variable
 	var db = req.db;
-	
+    res.send("ok");
+    return;
 	// Get our form values. These rely on the "name" attributes
 	var key = req.query.key;
 	var value = req.query.value;
